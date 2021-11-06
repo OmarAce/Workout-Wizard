@@ -2,9 +2,9 @@
 
 ## Note
 This is a re-deploy the application Workout Wizard created in a team alongside; 
-[Nick] (https://github.com/nicholasamarillo), 
-[Kamyar] (https://github.com/Kam-Mivehchi).
-[Runa] (https://github.com/runaariga),
+* [Nick] (https://github.com/nicholasamarillo), 
+* [Kamyar] (https://github.com/Kam-Mivehchi).
+* [Runa] (https://github.com/runaariga),
 and myself.
 
 The application is originally hosted on Runa's Github (https://github.com/runaariga) at https://runaariga.github.io/project-1/index.html. For the full commit/revision history please refer to that repository. This is just for visibility.
@@ -24,6 +24,7 @@ If the user selects a muscle group, application will provide a list of workouts 
 
 ## Deploy Links
 https://runaariga.github.io/project-1/
+https://omarace.github.io/Workout-Wizard/
 
 
 ## Getting Started

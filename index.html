@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Wizard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="cursor" href="cursor.cur">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
+
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" id="navbar" href="./index.html"><span class="work">WORK</span><span class="out">OUT</span><span class="wizard"> WIZARD</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto mt-2">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ml-3" href="./aboutus.html">Meet the Creators</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <h1 class="text-center p-5 mt-2 question">What would you like to work out today?</h1>
+
+<main>
+
+<div class='container'>
+    <div class="row container-fluid col-12">
+
+    <div class="col-lg-3 col-md-12 contain muscle-container">
+   
+        <h2 class="text-center">Muscles</h2>
+            <form id="search-form col-12">
+
+                <button id="delts" class="btn btn-muscle btn-primary col-12" data-id="2" onclick="window.location.href='#workouts'">Anterior deltoid</button>
+                <button id="bicepArms" class="btn btn-muscle btn-primary col-12" data-id="1" onclick="window.location.href='#workouts'">Biceps brachii</button>
+                <button id="bicepLegs" class="btn btn-muscle btn-primary col-12" data-id="11" onclick="window.location.href='#workouts'">Biceps femoris</button>
+                <button id="elbow" class="btn btn-muscle btn-primary col-12" data-id="13" onclick="window.location.href='#workouts'">Brachialis</button>
+                <button id="calves" class="btn btn-muscle btn-primary col-12" data-id="7" onclick="window.location.href='#workouts'">Gastrocnemius</button>
+                <button id="butt" class="btn btn-muscle btn-primary col-12" data-id="8" onclick="window.location.href='#workouts'">Gluteus maximus</button>
+                <button id="lats" class="btn btn-muscle btn-primary col-12" data-id="12" onclick="window.location.href='#workouts'">Latissimus dorsi</button>
+                <button id="oblique" class="btn btn-muscle btn-primary col-12" data-id="14" onclick="window.location.href='#workouts'">Obliquus externus abdominis</button>
+                <button id="pecs" class="btn btn-muscle btn-primary col-12" data-id="4" onclick="window.location.href='#workouts'">Pectoralis major</button>
+                <button id="quads" class="btn btn-muscle btn-primary col-12" data-id="10" onclick="window.location.href='#workouts'">Quadriceps femoris</button>
+                <button id="pecs2" class="btn btn-muscle btn-primary col-12" data-id="3" onclick="window.location.href='#workouts'">Serratus anterior</button>
+                <button id="calves2" class="btn btn-muscle btn-primary col-12" data-id="6" onclick="window.location.href='#workouts'">Soleus</button>
+                <button id="traps" class="btn btn-muscle btn-primary col-12"data-id="9" onclick="window.location.href='#workouts'">Trapezius</button>
+                <button id="tris" class="btn btn-muscle btn-primary col-12" data-id="5" onclick="window.location.href='#workouts'">Triceps brachii</button>
+
+            </form>
+    </div>
+    
+    <div class="col-lg-6 col-md-12 d-block position-relative body-container">
+        <div class="human-body">
+
+            <svg version="1.0" class="hat" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 889.000000 1280.000000"
+            preserveAspectRatio="xMidYMid meet">
+           <metadata>
+           Created by potrace 1.15, written by Peter Selinger 2001-2017
+           </metadata>
+           <g transform="translate(0.000000,1280.000000) scale(0.0660000,-0.066000)"
+           fill="#57c9d5" stroke="none">
+           <path d="M5540 12794 c-346 -43 -644 -202 -890 -475 -348 -386 -660 -876
+           -1044 -1639 -440 -874 -926 -2053 -1371 -3330 -32 -91 -65 -174 -75 -185 -9
+           -11 -49 -128 -88 -260 -39 -132 -75 -252 -80 -266 l-10 -26 -219 -6 c-650 -20
+           -1088 -131 -1405 -357 -102 -73 -222 -194 -279 -282 -69 -108 -95 -235 -65
+           -319 9 -26 10 -55 3 -110 -12 -97 10 -224 52 -316 25 -51 54 -88 129 -163 105
+           -104 164 -147 306 -221 199 -103 597 -226 926 -284 130 -23 126 -21 89 -52
+           -94 -79 -118 -173 -58 -232 l30 -31 -22 -32 c-12 -18 -100 -112 -194 -208
+           -263 -268 -363 -403 -445 -603 -77 -189 -112 -360 -130 -630 -13 -184 -6 -422
+           11 -444 28 -33 70 -12 171 85 40 39 59 51 62 41 2 -8 18 -99 35 -204 40 -243
+           113 -570 153 -683 61 -175 166 -355 300 -517 82 -101 102 -114 129 -89 23 21
+           36 66 45 155 l7 67 36 -21 c20 -12 137 -120 261 -242 291 -285 419 -386 680
+           -537 150 -87 494 -258 518 -258 30 0 39 23 47 120 10 132 28 170 80 170 9 0
+           44 -25 78 -55 152 -136 355 -256 524 -309 158 -49 266 -57 424 -30 266 46 524
+           189 888 495 165 138 169 142 184 136 7 -2 20 -52 31 -113 24 -137 49 -207 83
+           -229 25 -17 25 -17 90 46 90 89 471 588 517 676 38 74 68 65 122 -37 43 -82
+           76 -120 103 -120 28 0 70 60 169 239 125 226 237 491 328 776 15 46 39 43 76
+           -11 18 -27 47 -64 65 -84 27 -29 35 -33 50 -24 44 27 73 256 73 570 0 514 -65
+           903 -201 1203 -38 83 -127 215 -178 266 -58 56 -55 68 17 63 69 -5 167 -47
+           230 -100 91 -74 140 -81 121 -16 -39 139 -293 452 -502 622 l-89 71 37 3 c21
+           2 115 -4 210 -12 215 -20 314 -20 528 -1 338 30 572 76 785 154 350 129 591
+           363 761 735 25 55 58 117 73 137 127 166 38 309 -226 364 -91 18 -112 15 -210
+           -31 -112 -53 -231 -74 -453 -81 -246 -7 -425 6 -823 63 -269 39 -705 115 -713
+           125 -2 2 -20 157 -40 344 -20 187 -73 673 -117 1080 -44 407 -117 1071 -161
+           1475 -43 404 -115 1064 -159 1465 -44 402 -92 841 -106 977 -15 137 -24 251
+           -20 255 13 14 287 15 386 3 187 -24 280 -66 474 -214 225 -173 349 -241 556
+           -310 128 -42 290 -86 290 -79 0 3 -42 81 -94 172 -51 91 -135 245 -186 341
+           -275 518 -422 738 -649 973 -119 123 -277 254 -351 292 -67 34 -215 83 -304
+           101 -72 14 -321 26 -386 18z"/>
+           </g>
+           </svg>
+            <svg data-position="shoulder" data-id="2" class="shoulder btn-muscle" xmlns="http://www.w3.org/2000/svg" width="109.532" height="46.594" viewBox="0 0 109.532 46.594" onclick="window.location.href='#workouts'"><path d="M38.244-.004l1.98 9.232-11.653 2.857-7.474-2.637zm33.032 0l-1.98 9.232 11.653 2.857 7.474-2.637zm21.238 10.54l4.044-2.187 12.656 14 .07 5.33S92.76 10.66 92.515 10.535zm-1.285.58c-.008.28 17.762 18.922 17.762 18.922l.537 16.557-6.157-10.55L91.5 30.988 83.148 15.6zm-74.224-.58L12.962 8.35l-12.656 14-.062 5.325s16.52-17.015 16.764-17.14zm1.285.58C18.3 11.396.528 30.038.528 30.038L-.01 46.595l6.157-10.55 11.87-5.056L26.374 15.6z"/></svg>
+            <svg data-position="arm" data-id="1" class="arm btn-muscle" xmlns="http://www.w3.org/2000/svg" width="156.344" height="119.25" viewBox="0 0 156.344 119.25" onclick="window.location.href='#workouts'"><path d="M21.12 56.5a1.678 1.678 0 0 1-.427.33l.935 8.224 12.977-13.89 1.2-8.958A168.2 168.2 0 0 0 21.12 56.5zm1.387 12.522l-18.07 48.91 5.757 1.333 19.125-39.44 3.518-22.047zm-5.278-18.96l2.638 18.74-17.2 46.023L.01 113.05l6.644-35.518zm118.015 6.44a1.678 1.678 0 0 0 .426.33l-.934 8.222-12.977-13.89-1.2-8.958A168.2 168.2 0 0 1 135.24 56.5zm-1.39 12.52l18.073 48.91-5.758 1.333-19.132-39.44-3.52-22.05zm5.28-18.96l-2.64 18.74 17.2 46.023 2.658-1.775-6.643-35.518zm-103.1-12.323a1.78 1.78 0 0 1 .407-.24l3.666-27.345L33.07.015l-7.258 10.58-6.16 37.04.566 4.973a151.447 151.447 0 0 1 15.808-14.87zm84.3 0a1.824 1.824 0 0 0-.407-.24l-3.666-27.345L123.3.015l7.258 10.58 6.16 37.04-.566 4.973a151.447 151.447 0 0 0-15.822-14.87zM22.288 8.832l-3.3 35.276-2.2-26.238zm111.79 0l3.3 35.276 2.2-26.238z"/></svg>
+            <svg data-position="chest" data-id="4" class="chest btn-muscle" xmlns="http://www.w3.org/2000/svg" width="86.594" height="45.063" viewBox="0 0 86.594 45.063" onclick="window.location.href='#workouts'"><path d="M19.32 0l-9.225 16.488-10.1 5.056 6.15 4.836 4.832 14.07 11.2 4.616 17.85-8.828-4.452-34.7zm47.934 0l9.225 16.488 10.1 5.056-6.15 4.836-4.833 14.07-11.2 4.616-17.844-8.828 4.45-34.7z"/></svg>
+            <svg data-position="stomach" data-id="14" class="stomach btn-muscle" xmlns="http://www.w3.org/2000/svg" width="75.25" height="107.594" viewBox="0 0 75.25 107.594" onclick="window.location.href='#workouts'"><path d="M19.25 7.49l16.6-7.5-.5 12.16-14.943 7.662zm-10.322 8.9l6.9 3.848-.8-9.116zm5.617-8.732L1.32 2.15 6.3 15.6zm-8.17 9.267l9.015 5.514 1.54 11.028-8.795-5.735zm15.53 5.89l.332 8.662 12.286-2.665.664-11.826zm14.61 84.783L33.28 76.062l-.08-20.53-11.654-5.736-1.32 37.5zM22.735 35.64L22.57 46.3l11.787 3.166.166-16.657zm-14.16-5.255L16.49 35.9l1.1 11.25-8.8-7.06zm8.79 22.74l-9.673-7.28-.84 9.78L-.006 68.29l10.564 14.594 5.5.883 1.98-20.735zM56 7.488l-16.6-7.5.5 12.16 14.942 7.66zm10.32 8.9l-6.9 3.847.8-9.116zm-5.617-8.733L73.93 2.148l-4.98 13.447zm8.17 9.267l-9.015 5.514-1.54 11.03 8.8-5.736zm-15.53 5.89l-.332 8.662-12.285-2.665-.664-11.827zm-14.61 84.783l3.234-31.536.082-20.532 11.65-5.735 1.32 37.5zm13.78-71.957l.166 10.66-11.786 3.168-.166-16.657zm14.16-5.256l-7.915 5.514-1.1 11.25 8.794-7.06zm-8.79 22.743l9.673-7.28.84 9.78 6.862 12.66-10.564 14.597-5.5.883-1.975-20.74z"/></svg>
+            <svg data-position="legs" data-id="11" class="legs btn-muscle" xmlns="http://www.w3.org/2000/svg" width="93.626" height="286.625" viewBox="0 0 93.626 286.625" onclick="window.location.href='#workouts'"><path d="M17.143 138.643l-.664 5.99 4.647 5.77 1.55 9.1 3.1 1.33 2.655-13.755 1.77-4.88-1.55-3.107zm20.582.444l-3.32 9.318-7.082 13.755 1.77 12.647 5.09-14.2 4.205-7.982zm-26.557-12.645l5.09 27.29-3.32-1.777-2.656 8.875zm22.795 42.374l-1.55 4.88-3.32 20.634-.442 27.51 4.65 26.847-.223-34.39 4.87-13.754.663-15.087zM23.34 181.24l1.106 41.267 8.853 33.28-9.628-4.55-16.045-57.8 5.533-36.384zm15.934 80.536l-.664 18.415-1.55 6.435h-4.647l-1.327-4.437-1.55-.222.332 4.437-5.864-1.778-1.55-.887-6.64-1.442-.22-5.214 6.418-10.87 4.426-5.548 10.844-4.437zM13.63 3.076v22.476l15.71 31.073 9.923 30.85L38.23 66.1zm25.49 30.248l.118-.148-.793-2.024L21.9 12.992l-1.242-.44L31.642 40.93zM32.865 44.09l6.812 17.6 2.274-21.596-1.344-3.43zM6.395 61.91l.827 25.34 12.816 35.257-3.928 10.136L3.5 88.133zM30.96 74.69l.345.826 6.47 15.48-4.177 38.342-6.594-3.526 5.715-35.7zm45.5 63.953l.663 5.99-4.647 5.77-1.55 9.1-3.1 1.33-2.655-13.755-1.77-4.88 1.55-3.107zm-20.582.444l3.32 9.318 7.08 13.755-1.77 12.647-5.09-14.2-4.2-7.987zm3.762 29.73l1.55 4.88 3.32 20.633.442 27.51-4.648 26.847.22-34.39-4.867-13.754-.67-15.087zm10.623 12.424l-1.107 41.267-8.852 33.28 9.627-4.55 16.046-57.8-5.533-36.384zM54.33 261.777l.663 18.415 1.546 6.435h4.648l1.328-4.437 1.55-.222-.333 4.437 5.863-1.778 1.55-.887 6.638-1.442.222-5.214-6.418-10.868-4.426-5.547-10.844-4.437zm25.643-258.7v22.476L64.26 56.625l-9.923 30.85L55.37 66.1zM54.48 33.326l-.118-.15.793-2.023L71.7 12.993l1.24-.44L61.96 40.93zm6.255 10.764l-6.812 17.6-2.274-21.595 1.344-3.43zm26.47 17.82l-.827 25.342-12.816 35.256 3.927 10.136 12.61-44.51zM62.64 74.693l-.346.825-6.47 15.48 4.178 38.342 6.594-3.527-5.715-35.7zm19.792 51.75l-5.09 27.29 3.32-1.776 2.655 8.875zM9.495-.007l.827 21.373-7.028 42.308-3.306-34.155zm2.068 27.323L26.24 59.707l3.307 26-6.2 36.58L9.91 85.046l-.827-38.342zM84.103-.01l-.826 21.375 7.03 42.308 3.306-34.155zm-2.066 27.325L67.36 59.707l-3.308 26 6.2 36.58 13.436-37.24.827-38.34z"/></svg>
+            <svg data-position="hands" data-id="13" class="hands btn-muscle" xmlns="http://www.w3.org/2000/svg" width="205" height="38.938" viewBox="0 0 205 38.938" onclick="window.location.href='#workouts'"><path d="M21.255-.002l2.88 6.9 8.412 1.335.664 12.458-4.427 17.8-2.878-.22 2.8-11.847-2.99-.084-4.676 12.6-3.544-.446 4.4-12.736-3.072-.584-5.978 13.543-4.428-.445 6.088-14.1-2.1-1.25-7.528 12.012-3.764-.445L12.4 12.9l-1.107-1.78L.665 15.57 0 13.124l8.635-7.786zm162.49 0l-2.88 6.9-8.412 1.335-.664 12.458 4.427 17.8 2.878-.22-2.8-11.847 2.99-.084 4.676 12.6 3.544-.446-4.4-12.736 3.072-.584 5.978 13.543 4.428-.445-6.088-14.1 2.1-1.25 7.528 12.012 3.764-.445L192.6 12.9l1.107-1.78 10.628 4.45.665-2.447-8.635-7.786z"/></svg>
+
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-12 contain workout startHidden">
+            <h3 id="workouts" class="text-center">Work-Outs</h3>
+                <div class="overflow-auto contain2" id="display"></div>
+        </div>
+    </div>
+
+    <div id="results" class="col-12 startHidden results">
+        <h3>Exercise:</h3>
+            <div id="display2"></div>
+        <h3>Videos:</h3>
+            <div id="display3"></div>    
+    </div>
+
+</div>
+
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

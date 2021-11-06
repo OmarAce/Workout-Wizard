@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    cursor: url('cursor.cur'), auto;	
+}
+main {
+    animation: transitionIn 3.25s;
+}
+.question {
+    animation: transitionIn 0.75s;
+}
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px 
+}
+
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px 
+}
+nav {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px 
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    background-color: #1597E5;
+}
+
+.human-body {
+    width: 207px;
+    position: relative;
+    padding-top: 240px;
+    top: 50px;
+    height: 260px;
+    display: block;
+    margin: 40px auto;
+}
+.human-body svg:hover {
+    cursor: pointer;
+}
+.human-body svg:hover path {
+    fill: #ff7d16;
+}
+.human-body svg {
+    position: absolute;
+    left: 50%;
+    fill: #57c9d5;
+}
+.human-body svg.hat {
+    left: 63px;
+    top: -123px;
+    z-index: 99;
+}
+.human-body svg.head:hover path {
+    fill: #57c9d5;
+}
+.human-body svg.shoulder {
+    margin-left: -53.5px;
+    top: 69px;
+}
+.human-body svg.arm {
+    margin-left: -78px;
+    top: 112px;
+}
+.human-body svg.chest {
+    margin-left: -43.5px;
+    top: 88px;
+}
+.human-body svg.stomach {
+    margin-left: -37.5px;
+    top: 130px;
+}
+.human-body svg.legs {
+    margin-left: -46.5px;
+    top: 205px;
+    z-index: 9999;
+}
+.human-body svg.hands {
+    margin-left: -102.5px;
+    top: 224px;
+}
+
+.contain {
+    max-height: 630px;
+}
+
+.contain2 {
+    max-height: 584px;
+}
+
+.startHidden {
+    display: none;
+}
+
+.btn{
+    margin-bottom: 2px;
+}
+
+.body-container {
+    min-height: 580px;
+}
+
+#navbar {
+    font-size: 22px;
+}
+
+.work {
+    color: white;
+}
+
+.out {
+    color: #88c0d0
+}
+
+.wizard {
+    font-family: 'Pacifico', cursive;
+    color: #57c9d5;
+    font-size: 18px;
+}
+
+.wizard:hover {
+    color: #ff7d16;
+}
+
+.navbar-nav > li{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+ul li {
+    position: relative;
+    top: -5px;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateY(-10px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-nav > li{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .body-container {
+        order: 1;
+    }
+    .navbar button {
+        position: relative;
+        right: 0px;
+    }
+    .muscle-container {
+        order: 2;
+    }
+    .workout {
+        order: 3;
+    }
+
+  }
+
